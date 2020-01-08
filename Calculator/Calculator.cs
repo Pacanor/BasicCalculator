@@ -1,28 +1,31 @@
-﻿using System;
+﻿using Divide;
+using Sum;
 
 namespace Calculator
 {
-    public class Calculator
+    public interface ICalculatorBasic{
+
+        public dynamic Add(dynamic a, dynamic b);
+
+        public dynamic Divide(dynamic a, dynamic b);
+    }
+    public class Calculator : IAdding, IDividing, ICalculatorBasic
     {
-        public int Add(int a, int b)
+        public dynamic result;
+        private readonly Adding add = new Adding();
+        private readonly Dividing divide = new Dividing();
+
+        public dynamic Add(dynamic a, dynamic b)
         {
-            return Addition.Sum(a, b);
+            result = add.Add(a, b);
+            return result;
         }
 
-        public int Divide(int a, int b)
+        public dynamic Divide(dynamic a, dynamic b)
         {
-            return Division.Quotient(a, b);
-        }
-        /*
-        public int[] Add(int[] a)
-        {
-            return Addition.Sum(a);
+            result = divide.Divide(a, b);
+            return result;
         }
 
-        public int[] Divide(int[] a)
-        {
-            return Division.Quotient(a);
-        }
-        */
     }
 }

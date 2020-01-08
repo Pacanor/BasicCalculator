@@ -3,9 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29519.87
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Calculator.csproj", "{6FB6871B-F7FF-40A9-8937-1436410BED60}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator", "Calculator\Calculator.csproj", "{6FB6871B-F7FF-40A9-8937-1436410BED60}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorTests", "CalculatorTests\CalculatorTests.csproj", "{4172CA48-B2EF-43E6-A209-CBB5F3DB422C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculatorTests", "CalculatorTests\CalculatorTests.csproj", "{4172CA48-B2EF-43E6-A209-CBB5F3DB422C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sum", "Sum\Sum.csproj", "{40510B40-2E2D-4B0E-B59B-0A83F669546C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Divide", "Divide\Divide.csproj", "{0F4C99B8-1BC5-4646-9CBA-060AF114656E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operations", "Operations\Operations.csproj", "{2FD442D1-EAD7-4488-9891-9CB56E8A762B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,18 @@ Global
 		{4172CA48-B2EF-43E6-A209-CBB5F3DB422C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4172CA48-B2EF-43E6-A209-CBB5F3DB422C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4172CA48-B2EF-43E6-A209-CBB5F3DB422C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40510B40-2E2D-4B0E-B59B-0A83F669546C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40510B40-2E2D-4B0E-B59B-0A83F669546C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40510B40-2E2D-4B0E-B59B-0A83F669546C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40510B40-2E2D-4B0E-B59B-0A83F669546C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F4C99B8-1BC5-4646-9CBA-060AF114656E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F4C99B8-1BC5-4646-9CBA-060AF114656E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F4C99B8-1BC5-4646-9CBA-060AF114656E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F4C99B8-1BC5-4646-9CBA-060AF114656E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FD442D1-EAD7-4488-9891-9CB56E8A762B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FD442D1-EAD7-4488-9891-9CB56E8A762B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FD442D1-EAD7-4488-9891-9CB56E8A762B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FD442D1-EAD7-4488-9891-9CB56E8A762B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

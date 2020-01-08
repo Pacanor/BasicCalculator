@@ -1,8 +1,4 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Calculator;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Calculator.Tests
 {
@@ -11,26 +7,33 @@ namespace Calculator.Tests
     {
         private readonly int a = 3;
         private readonly int b = 6;
-        //private readonly int[] c = { 2, 3, 4, 5 };
+        private readonly double c = 3.5;
+        private readonly double d = 6.6;
+
 
         [TestMethod()]
         public void SumIntTest()
         {
             Assert.AreEqual(9, Addition.Sum(a, b));
         }
-        /*
+
         [TestMethod()]
-        public void SumIntArrayTest()
+        public void SumDoubleTest()
         {
-            Assert.AreEqual(14, Addition.Sum(c));
+            Assert.AreEqual(10.1, Addition.Sum(c, d));
         }
-        */
+
+        [TestMethod()]
+        public void SumHybridTest()
+        {
+            Assert.AreEqual(9.6, Addition.Sum(a, d));
+        }
     }
 }
 
 namespace CalculatorTests
 {
-    class AdditionTests
+    internal class AdditionTests
     {
     }
 }
