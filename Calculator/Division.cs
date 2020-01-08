@@ -6,7 +6,7 @@
         {
             return a / b;
         }
-
+        /*
         public static int Quotient(int[] a)
         {
             int c = a[0];
@@ -16,5 +16,6 @@
             }
             return c;
         }
+        */
     }
 }

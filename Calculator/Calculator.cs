@@ -13,5 +13,16 @@ namespace Calculator
         {
             return Division.Quotient(a, b);
         }
+        /*
+        public int[] Add(int[] a)
+        {
+            return Addition.Sum(a);
+        }
+
+        public int[] Divide(int[] a)
+        {
+            return Division.Quotient(a);
+        }
+        */
     }
 }
