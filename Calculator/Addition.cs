@@ -6,7 +6,7 @@
         {
             return a + b;
         }
-
+        /*
         public static int Sum(int[] a)
         {
             int c = 0;
@@ -16,5 +16,6 @@
             }
             return c;
         }
+        */
     }
 }
